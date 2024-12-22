@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star-rating span {
+  font-size: 4rem;
+  color: var(--gray);
+  transition: color 0.2s ease-in-out;
+}
+
+.star-rating span:hover,
+.star-rating span:hover ~ span {
+  color: var(--gold);
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 0;
+  color: var(--black);
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: no-drop;
+}
