@@ -1,7 +1,7 @@
 body {
   display: grid;
   place-content: center;
-  height: 100vh;
+  height: calc(100vh - 20px);
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -37,4 +37,8 @@ button {
 
 button:disabled {
   cursor: no-drop;
+}
+
+a {
+  position: absolute;
 }
