@@ -7,3 +7,9 @@
   --slate-100: #f1f5f9;
   --slate-200: #e2e8f0;
 }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
